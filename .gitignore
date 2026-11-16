@@ -1,0 +1,21 @@
+# Build output
+*.exe
+*.dll
+*.pdb
+*.zip
+*.7z
+
+# Local state and logs
+state.json
+*.state.json
+*.log
+tray.log
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Test output
+tests/.tmp/
