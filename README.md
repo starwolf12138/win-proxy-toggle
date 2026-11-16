@@ -18,10 +18,10 @@
 bin\proxy-toggle-tray.cmd
 ```
 
-在你自己的电脑上，完整路径是：
+路径根据你解压的位置而定，例如：
 
 ```text
-D:\cheatmenu\win-proxy-toggle\bin\proxy-toggle-tray.cmd
+D:\tools\win-proxy-toggle\bin\proxy-toggle-tray.cmd
 ```
 
 如果 Windows 弹出“已保护你的电脑”：
@@ -72,12 +72,14 @@ D:\cheatmenu\win-proxy-toggle\bin\proxy-toggle-tray.cmd
 ### 如果你要用命令行
 
 ```powershell
-cd D:\cheatmenu\win-proxy-toggle
+cd D:\tools\win-proxy-toggle
 
 .\src\proxy-toggle.ps1 status
 .\src\proxy-toggle.ps1 disable
 .\src\proxy-toggle.ps1 restore
 ```
+
+把 `D:\tools\win-proxy-toggle` 换成你实际解压的路径。
 
 对应含义：
 
